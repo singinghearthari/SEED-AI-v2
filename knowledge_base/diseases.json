@@ -1,0 +1,302 @@
+[
+  {
+    "id": "D001",
+    "name": "Early Blight",
+    "scientific_name": "Alternaria solani",
+    "crops_affected": ["Tomato", "Potato", "Eggplant", "Pepper"],
+    "symptoms": [
+      "Concentric dark brown spots on lower/older leaves (target-spot pattern)",
+      "Yellowing and wilting of affected leaves",
+      "Progressive defoliation from bottom upward",
+      "Dark lesions on stems near soil line",
+      "Leathery dark patches on fruit near calyx"
+    ],
+    "causes": ["Alternaria solani fungus", "High humidity (>80%)", "Warm temperatures (24–29°C)", "Overhead irrigation", "Crop debris in soil"],
+    "spread_mechanism": "Wind-borne spores, rain splash, contaminated seeds and tools",
+    "favorable_conditions": "Warm humid weather, dense canopy, nitrogen deficiency stress",
+    "risk_level": "High",
+    "yield_loss_potential": "30-50%",
+    "incubation_days": "2-3 days",
+    "regions_common": ["Karnataka", "Maharashtra", "Andhra Pradesh", "Tamil Nadu", "Uttar Pradesh"]
+  },
+  {
+    "id": "D002",
+    "name": "Late Blight",
+    "scientific_name": "Phytophthora infestans",
+    "crops_affected": ["Tomato", "Potato"],
+    "symptoms": [
+      "Water-soaked irregular dark green/brown patches on leaves",
+      "White cottony fungal growth on leaf undersides in humid conditions",
+      "Rapid brown-black necrosis spreading across entire plant",
+      "Brown firm rot on fruits starting from shoulders",
+      "Distinctive foul smell during advanced infection"
+    ],
+    "causes": ["Phytophthora infestans oomycete", "Cool wet weather (10–20°C)", "Fog, mist, or prolonged leaf wetness"],
+    "spread_mechanism": "Wind-dispersed sporangia, rain splash, infected tubers/seedlings",
+    "favorable_conditions": "Cool nights with fog, continuous rain for 2+ days, temperatures below 25°C",
+    "risk_level": "Critical",
+    "yield_loss_potential": "70-100% (can destroy entire crop in 7-10 days)",
+    "incubation_days": "3-7 days",
+    "regions_common": ["Himachal Pradesh", "Uttarakhand", "Nilgiris", "Meghalaya", "Kashmir"]
+  },
+  {
+    "id": "D003",
+    "name": "Powdery Mildew",
+    "scientific_name": "Erysiphe spp. / Podosphaera spp.",
+    "crops_affected": ["Wheat", "Grapes", "Cucurbits", "Peas", "Mango", "Rose"],
+    "symptoms": [
+      "White-grey powdery coating on upper leaf surfaces",
+      "Distorted, curled, or stunted new growth",
+      "Premature leaf drop and senescence",
+      "Reduced fruit set and berry quality in grapes",
+      "White patches on stems and flower buds"
+    ],
+    "causes": ["Various obligate fungal parasites", "Moderate temperatures (20–25°C) with high humidity", "Poor air circulation"],
+    "spread_mechanism": "Wind-borne conidia (spores), does NOT need free water on leaf surface",
+    "favorable_conditions": "Warm days, cool nights, crowded plantings, shaded conditions",
+    "risk_level": "Medium",
+    "yield_loss_potential": "20-40%",
+    "incubation_days": "5-7 days",
+    "regions_common": ["Punjab", "Haryana", "Rajasthan", "Maharashtra", "Madhya Pradesh"]
+  },
+  {
+    "id": "D004",
+    "name": "Bacterial Leaf Blight",
+    "scientific_name": "Xanthomonas oryzae pv. oryzae",
+    "crops_affected": ["Rice", "Paddy"],
+    "symptoms": [
+      "Water-soaked, yellowish stripes along leaf veins",
+      "Lesions enlarge and turn white/grey with wavy margins",
+      "Entire leaves may wilt and dry out (kresek phase in seedlings)",
+      "Milky bacterial ooze droplets on leaf surface in morning dew",
+      "Significant yellowing of leaf tips"
+    ],
+    "causes": ["Xanthomonas oryzae bacterium", "Monsoon rains and flooding", "Wounds from wind damage or insects"],
+    "spread_mechanism": "Contaminated irrigation water, wind-driven rain, infected seed",
+    "favorable_conditions": "High nitrogen fertilization, flooding, warm temperatures (25–34°C), typhoon damage",
+    "risk_level": "High",
+    "yield_loss_potential": "20-50% (up to 80% in severe outbreaks)",
+    "incubation_days": "4-6 days",
+    "regions_common": ["West Bengal", "Bihar", "Odisha", "Assam", "Punjab"]
+  },
+  {
+    "id": "D005",
+    "name": "Rice Blast",
+    "scientific_name": "Magnaporthe oryzae",
+    "crops_affected": ["Rice", "Wheat", "Finger Millet"],
+    "symptoms": [
+      "Diamond-shaped lesions with grey centers and brown borders on leaves",
+      "Node blast: black discoloration at stem nodes causing breakage",
+      "Neck blast: brown-black lesion at panicle base causing grain shriveling",
+      "White panicles with empty grains (whiteheads)",
+      "Seedling death in nursery beds"
+    ],
+    "causes": ["Magnaporthe oryzae fungus", "High nitrogen application", "Prolonged leaf wetness"],
+    "spread_mechanism": "Wind-borne conidia, infected seed, crop residue",
+    "favorable_conditions": "Temperature 25-28°C, relative humidity >90%, cloudy weather with drizzle",
+    "risk_level": "Critical",
+    "yield_loss_potential": "50-90%",
+    "incubation_days": "4-5 days",
+    "regions_common": ["Andhra Pradesh", "Tamil Nadu", "Karnataka", "Telangana", "Jharkhand"]
+  },
+  {
+    "id": "D006",
+    "name": "Downy Mildew",
+    "scientific_name": "Peronospora spp. / Pseudoperonospora spp.",
+    "crops_affected": ["Grapes", "Cucumber", "Onion", "Pearl Millet", "Sunflower", "Mustard"],
+    "symptoms": [
+      "Yellow-green angular patches on upper leaf surface (bounded by veins)",
+      "Purple-grey fuzzy fungal growth on corresponding lower leaf surface",
+      "Leaves curl downward, turn brown, and drop",
+      "Stunted shoot growth and malformed inflorescences",
+      "Severe defoliation reducing photosynthesis"
+    ],
+    "causes": ["Oomycete pathogens (water molds)", "Cool to moderate temperatures", "Persistent leaf wetness from dew/rain"],
+    "spread_mechanism": "Wind-blown sporangia, rain splash, oospores survive in soil debris",
+    "favorable_conditions": "Temperature 15-22°C, relative humidity >85%, foggy mornings",
+    "risk_level": "High",
+    "yield_loss_potential": "30-60%",
+    "incubation_days": "5-10 days",
+    "regions_common": ["Maharashtra (Nashik vineyards)", "Rajasthan", "Gujarat", "Karnataka"]
+  },
+  {
+    "id": "D007",
+    "name": "Fusarium Wilt",
+    "scientific_name": "Fusarium oxysporum",
+    "crops_affected": ["Banana", "Tomato", "Cotton", "Chickpea", "Pigeon Pea", "Watermelon"],
+    "symptoms": [
+      "Yellowing and wilting of lower leaves progressing upward (unilateral wilting)",
+      "Vascular browning visible when stem is cut longitudinally",
+      "Plant wilts during day but partially recovers at night (early stage)",
+      "Complete permanent wilt and death",
+      "Stunted growth with poor fruit development"
+    ],
+    "causes": ["Fusarium oxysporum soil-borne fungus", "Acidic soils (pH <6.0)", "Root injuries from nematodes"],
+    "spread_mechanism": "Contaminated soil, water, equipment; persists in soil for 10+ years as chlamydospores",
+    "favorable_conditions": "Warm soil (24-28°C), acidic soil pH, sandy loam soils, short crop rotations",
+    "risk_level": "Critical",
+    "yield_loss_potential": "40-100%",
+    "incubation_days": "7-14 days (visible symptoms)",
+    "regions_common": ["Tamil Nadu", "Karnataka (banana belt)", "Gujarat (cotton)", "Madhya Pradesh"]
+  },
+  {
+    "id": "D008",
+    "name": "Yellow Mosaic Virus",
+    "scientific_name": "Mungbean Yellow Mosaic India Virus (MYMIV)",
+    "crops_affected": ["Mung Bean", "Soybean", "Black Gram", "French Bean", "Cowpea"],
+    "symptoms": [
+      "Bright yellow patches alternating with green on leaves (mosaic pattern)",
+      "Complete yellowing of leaves in severe infections",
+      "Stunted plant growth and reduced branching",
+      "Fewer pods and smaller, shriveled seeds",
+      "Delayed maturity by 10-15 days"
+    ],
+    "causes": ["Begomovirus transmitted by whitefly (Bemisia tabaci)", "High whitefly populations"],
+    "spread_mechanism": "Persistent transmission by whiteflies; not seed-borne or mechanically transmissible",
+    "favorable_conditions": "Warm dry weather favoring whitefly multiplication, late sowing",
+    "risk_level": "High",
+    "yield_loss_potential": "30-85%",
+    "incubation_days": "14-21 days",
+    "regions_common": ["Uttar Pradesh", "Madhya Pradesh", "Rajasthan", "Maharashtra", "Punjab"]
+  },
+  {
+    "id": "D009",
+    "name": "Anthracnose",
+    "scientific_name": "Colletotrichum spp.",
+    "crops_affected": ["Chili", "Mango", "Papaya", "Banana", "Beans", "Onion"],
+    "symptoms": [
+      "Sunken dark circular lesions on fruits with concentric rings",
+      "Black acervuli (spore masses) visible in lesion centers",
+      "Die-back of twigs starting from tips",
+      "Leaf spots and blossom blight",
+      "Post-harvest fruit rotting during storage and transit"
+    ],
+    "causes": ["Colletotrichum capsici/gloeosporioides fungi", "Rain splash during flowering", "Wounded fruits"],
+    "spread_mechanism": "Rain splash, infected seeds, contaminated harvest tools",
+    "favorable_conditions": "Warm humid weather (25-30°C), frequent rainfall during fruiting",
+    "risk_level": "High",
+    "yield_loss_potential": "25-50% (up to 80% in chili)",
+    "incubation_days": "3-7 days",
+    "regions_common": ["Andhra Pradesh", "Karnataka", "Tamil Nadu", "Maharashtra"]
+  },
+  {
+    "id": "D010",
+    "name": "Stem Borer",
+    "scientific_name": "Scirpophaga incertulas / Chilo suppressalis",
+    "crops_affected": ["Rice", "Sugarcane", "Maize"],
+    "symptoms": [
+      "Dead heart in vegetative stage (central shoot dries and pulls out easily)",
+      "White ear/head in reproductive stage (panicle turns white, no grain filling)",
+      "Bore holes visible on stems at node level",
+      "Frass (sawdust-like excrement) inside tunneled stems",
+      "Stem breakage at bore points under wind stress"
+    ],
+    "causes": ["Moth larvae boring into stems", "Continuous rice cropping", "High nitrogen application"],
+    "spread_mechanism": "Adult moth flight (attracted to lights), egg masses on leaves",
+    "favorable_conditions": "Stagnant water in fields, high nitrogen, no natural predators (excessive pesticide use)",
+    "risk_level": "High",
+    "yield_loss_potential": "20-60%",
+    "incubation_days": "5-7 days (egg to larval entry)",
+    "regions_common": ["West Bengal", "Tamil Nadu", "Andhra Pradesh", "Punjab", "UP"]
+  },
+  {
+    "id": "D011",
+    "name": "Leaf Curl Virus",
+    "scientific_name": "Tomato Leaf Curl New Delhi Virus (ToLCNDV)",
+    "crops_affected": ["Tomato", "Chili", "Tobacco", "Cotton"],
+    "symptoms": [
+      "Upward curling and crinkling of leaves",
+      "Yellowing of leaf margins and interveinal areas",
+      "Severe stunting of plant height (50-75% reduction)",
+      "Flower drop and drastically reduced fruit set",
+      "Thick leathery texture of leaves"
+    ],
+    "causes": ["Begomovirus complex transmitted by whitefly (Bemisia tabaci)"],
+    "spread_mechanism": "Persistent whitefly transmission, infected transplants",
+    "favorable_conditions": "Hot dry weather (>30°C), whitefly population explosion, proximity to other host crops",
+    "risk_level": "Critical",
+    "yield_loss_potential": "50-100% if infected before flowering",
+    "incubation_days": "14-21 days",
+    "regions_common": ["Karnataka", "Maharashtra", "Andhra Pradesh", "Gujarat", "Rajasthan"]
+  },
+  {
+    "id": "D012",
+    "name": "Rust (Wheat Rust)",
+    "scientific_name": "Puccinia striiformis / P. triticina / P. graminis",
+    "crops_affected": ["Wheat", "Barley", "Oats"],
+    "symptoms": [
+      "Yellow/orange/brown powdery pustules on leaves and stems",
+      "Stripe rust: yellow pustules in stripes along leaf veins",
+      "Leaf rust: small brown pustules scattered on upper leaf surface",
+      "Stem rust: large dark brown-black pustules on stems (most destructive)",
+      "Premature leaf death and shriveled grains"
+    ],
+    "causes": ["Puccinia fungi", "Wind-borne urediniospores traveling long distances"],
+    "spread_mechanism": "Wind dispersal (spores can travel 1000+ km), infected volunteer plants",
+    "favorable_conditions": "Cool wet weather for stripe/leaf rust (10-20°C), warm humid for stem rust (25-30°C)",
+    "risk_level": "Critical",
+    "yield_loss_potential": "30-70% (stem rust: up to 100%)",
+    "incubation_days": "7-14 days",
+    "regions_common": ["Punjab", "Haryana", "Uttar Pradesh", "Madhya Pradesh", "Rajasthan"]
+  },
+  {
+    "id": "D013",
+    "name": "Black Rot (Crucifer)",
+    "scientific_name": "Xanthomonas campestris pv. campestris",
+    "crops_affected": ["Cabbage", "Cauliflower", "Broccoli", "Radish", "Mustard"],
+    "symptoms": [
+      "V-shaped yellow-brown lesions starting from leaf margins",
+      "Darkened (black) leaf veins visible when held against light",
+      "Wilting and premature drop of lower leaves",
+      "Black discoloration of vascular tissue in stems",
+      "Soft rot secondary infection in stored heads"
+    ],
+    "causes": ["Xanthomonas campestris bacterium", "Contaminated seeds", "Warm humid weather"],
+    "spread_mechanism": "Seed-borne, rain splash, irrigation water, contaminated tools",
+    "favorable_conditions": "Temperature 25-30°C, high humidity, insect feeding wounds",
+    "risk_level": "High",
+    "yield_loss_potential": "30-50%",
+    "incubation_days": "10-14 days",
+    "regions_common": ["West Bengal", "Bihar", "Uttar Pradesh", "Karnataka", "Meghalaya"]
+  },
+  {
+    "id": "D014",
+    "name": "Citrus Canker",
+    "scientific_name": "Xanthomonas citri subsp. citri",
+    "crops_affected": ["Lemon", "Orange", "Lime", "Grapefruit", "Sweet Orange"],
+    "symptoms": [
+      "Raised corky brown lesions with yellow halo on leaves",
+      "Similar crater-like lesions on fruits reducing market value",
+      "Premature fruit drop in severe cases",
+      "Twig dieback and defoliation",
+      "Water-soaked margins around lesions after rain"
+    ],
+    "causes": ["Xanthomonas citri bacterium", "Wind-driven rain", "Leaf miner damage creating entry wounds"],
+    "spread_mechanism": "Wind-driven rain, contaminated budwood, nursery stock, pruning tools",
+    "favorable_conditions": "Temperature 20-35°C, frequent rainfall, wind, citrus leaf miner activity",
+    "risk_level": "High",
+    "yield_loss_potential": "20-40%",
+    "incubation_days": "7-10 days",
+    "regions_common": ["Andhra Pradesh", "Maharashtra", "Karnataka", "Punjab", "Rajasthan"]
+  },
+  {
+    "id": "D015",
+    "name": "Sheath Blight",
+    "scientific_name": "Rhizoctonia solani",
+    "crops_affected": ["Rice", "Maize", "Soybean"],
+    "symptoms": [
+      "Oval/irregular greenish-grey water-soaked lesions on leaf sheaths near waterline",
+      "Lesions enlarge and coalesce, forming banded pattern up the plant",
+      "White-grey mycelial web visible on sheath surface in humid mornings",
+      "Lodging (falling over) of heavily infected tillers",
+      "Chalky unfilled grains and reduced grain weight"
+    ],
+    "causes": ["Rhizoctonia solani fungus", "Dense planting", "Excessive nitrogen"],
+    "spread_mechanism": "Sclerotia floating on irrigation water, mycelial contact between tillers",
+    "favorable_conditions": "Warm humid (28-32°C), close spacing, high nitrogen, stagnant water",
+    "risk_level": "High",
+    "yield_loss_potential": "25-50%",
+    "incubation_days": "3-5 days",
+    "regions_common": ["Tamil Nadu", "Andhra Pradesh", "Punjab", "Haryana", "West Bengal"]
+  }
+]

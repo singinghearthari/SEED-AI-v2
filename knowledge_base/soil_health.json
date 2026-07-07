@@ -1,0 +1,147 @@
+[
+  {
+    "id": "SH001",
+    "soil_type": "Alluvial Soil",
+    "coverage_percent_india": 43,
+    "regions": ["Indo-Gangetic Plains (UP, Bihar, Punjab, Haryana)", "River deltas (West Bengal, Odisha)"],
+    "characteristics": {
+      "texture": "Sandy loam to silty clay",
+      "pH_range": "6.5-8.0",
+      "organic_carbon_percent": "0.3-0.8",
+      "water_retention": "Moderate to Good",
+      "drainage": "Good in sandy, poor in clayey alluvial"
+    },
+    "nutrient_status": {
+      "nitrogen": "Low to Medium",
+      "phosphorus": "Medium",
+      "potassium": "Medium to High",
+      "zinc": "Deficient in 48% of samples",
+      "iron": "Generally adequate"
+    },
+    "best_crops": ["Rice", "Wheat", "Sugarcane", "Maize", "Potato", "Vegetables"],
+    "management_recommendations": [
+      "Regular green manuring (Dhaincha/Sesbania) to improve organic carbon",
+      "Balanced NPK application based on soil test values",
+      "Add zinc sulphate (25 kg/ha) for rice-wheat systems",
+      "Gypsum application for sodic patches (5-10 tonnes/ha)",
+      "Micro-irrigation for efficient water use on sandy alluvium"
+    ]
+  },
+  {
+    "id": "SH002",
+    "soil_type": "Black Soil (Vertisol / Regur)",
+    "coverage_percent_india": 24,
+    "regions": ["Deccan Plateau (Maharashtra, MP, Gujarat, Karnataka, AP, Telangana)"],
+    "characteristics": {
+      "texture": "Clay to heavy clay (>40% clay, high montmorillonite)",
+      "pH_range": "7.5-8.5 (slightly alkaline)",
+      "organic_carbon_percent": "0.4-0.6",
+      "water_retention": "Very High (swells when wet, cracks when dry)",
+      "drainage": "Poor — waterlogging in monsoon, deep cracks in summer"
+    },
+    "nutrient_status": {
+      "nitrogen": "Low",
+      "phosphorus": "Medium to High",
+      "potassium": "High",
+      "zinc": "Often deficient",
+      "calcium_magnesium": "High"
+    },
+    "best_crops": ["Cotton", "Soybean", "Sorghum", "Sunflower", "Sugarcane", "Wheat (rabi)"],
+    "management_recommendations": [
+      "Broad bed and furrow (BBF) system to prevent waterlogging",
+      "Apply FYM/compost (5-8 tonnes/acre) to improve structure",
+      "Green manuring with Dhaincha before Kharif sowing",
+      "Gypsum (2 tonnes/ha) if exchangeable sodium >15%",
+      "Avoid excessive tillage when wet — causes puddling",
+      "Install drainage channels for monsoon waterlogging"
+    ]
+  },
+  {
+    "id": "SH003",
+    "soil_type": "Red Soil (Alfisol)",
+    "coverage_percent_india": 18,
+    "regions": ["Eastern/Southern Deccan", "Tamil Nadu", "Karnataka", "Odisha", "Chhattisgarh", "Jharkhand"],
+    "characteristics": {
+      "texture": "Sandy loam to clay loam",
+      "pH_range": "5.5-6.5 (acidic)",
+      "organic_carbon_percent": "0.3-0.5",
+      "water_retention": "Low to Moderate",
+      "drainage": "Good (often excessive in sandy variants)"
+    },
+    "nutrient_status": {
+      "nitrogen": "Low",
+      "phosphorus": "Low (fixed by iron/aluminum oxides)",
+      "potassium": "Low to Medium",
+      "zinc": "Low",
+      "boron": "Often deficient"
+    },
+    "best_crops": ["Groundnut", "Finger Millet (Ragi)", "Pulses", "Millets", "Fruits (Mango, Guava)"],
+    "management_recommendations": [
+      "Lime application (2-4 tonnes/ha) to raise pH above 6.0",
+      "Apply phosphorus as single super phosphate (SSP) — cheaper and provides sulphur",
+      "Organic matter addition critical — use vermicompost 2 tonnes/acre",
+      "Boron application (0.5 kg Borax/acre) for groundnut and pulses",
+      "Contour farming and check dams for soil/water conservation",
+      "Mulching to reduce erosion and conserve moisture"
+    ]
+  },
+  {
+    "id": "SH004",
+    "soil_type": "Laterite Soil",
+    "coverage_percent_india": 8,
+    "regions": ["Western Ghats", "Kerala", "Goa", "Parts of Karnataka, Maharashtra, Odisha", "NE India"],
+    "characteristics": {
+      "texture": "Gravelly clay loam",
+      "pH_range": "4.5-6.0 (strongly acidic)",
+      "organic_carbon_percent": "0.2-0.4 (leached out due to heavy rainfall)",
+      "water_retention": "Low",
+      "drainage": "Excessive"
+    },
+    "nutrient_status": {
+      "nitrogen": "Very Low (rapid leaching)",
+      "phosphorus": "Very Low (fixed by iron/aluminum sesquioxides)",
+      "potassium": "Low",
+      "calcium_magnesium": "Low (leached)",
+      "iron_aluminum": "Excess (toxicity possible)"
+    },
+    "best_crops": ["Cashew", "Coconut", "Rubber", "Tea", "Coffee", "Arecanut", "Pepper"],
+    "management_recommendations": [
+      "Heavy liming (3-5 tonnes/ha) to neutralize acidity",
+      "Rock phosphate application (cheaper, slow-release P source)",
+      "Organic matter addition essential — coconut coir pith, coffee husk compost",
+      "Green manuring with Crotalaria/Gliricidia",
+      "Terracing for soil conservation on slopes",
+      "Band placement of fertilizers to reduce fixation losses"
+    ]
+  },
+  {
+    "id": "SH005",
+    "soil_type": "Saline-Sodic Soil",
+    "coverage_percent_india": 3,
+    "regions": ["Coastal areas", "Arid zones (Rajasthan, Gujarat)", "Waterlogged areas (Haryana, UP)"],
+    "characteristics": {
+      "texture": "Variable",
+      "pH_range": "8.5-10.5 (saline: >8.5; sodic: >9.0)",
+      "organic_carbon_percent": "0.2-0.4",
+      "water_retention": "Very high (sodic) to variable (saline)",
+      "drainage": "Very poor in sodic soils"
+    },
+    "nutrient_status": {
+      "nitrogen": "Low",
+      "phosphorus": "Variable (unavailable due to high pH)",
+      "potassium": "High",
+      "sodium": "Excess — toxic to crops",
+      "micronutrients": "Zinc, iron, manganese all deficient at high pH"
+    },
+    "best_crops": ["Salt-tolerant: Rice (CSR 30, CSR 43)", "Barley", "Berseem", "Cotton", "Date Palm"],
+    "management_recommendations": [
+      "Gypsum application (5-10 tonnes/ha based on gypsum requirement)",
+      "Install subsurface drainage to lower water table",
+      "Use salt-tolerant crop varieties (CSR series rice, KRL 210 wheat)",
+      "Leaching irrigation with good quality water",
+      "Green manuring with Sesbania to improve permeability",
+      "Organic amendments (FYM, pressmud) to improve soil structure",
+      "Avoid use of sodium-rich irrigation water (RSC > 2.5 meq/L)"
+    ]
+  }
+]

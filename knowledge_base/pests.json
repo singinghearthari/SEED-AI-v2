@@ -1,0 +1,146 @@
+[
+  {
+    "id": "P001",
+    "name": "Whitefly",
+    "scientific_name": "Bemisia tabaci",
+    "category": "Sucking Pest",
+    "crops_affected": ["Cotton", "Tomato", "Chili", "Soybean", "Brinjal", "Okra"],
+    "damage": [
+      "Sucks phloem sap causing leaf yellowing and wilting",
+      "Excretes honeydew promoting sooty mold growth",
+      "PRIMARY VECTOR for geminiviruses (Leaf Curl, Yellow Mosaic)",
+      "Severe infestations cause leaf drop and stunting"
+    ],
+    "identification": "Tiny (1-2mm) white moth-like insects on leaf undersides. Fly up in clouds when disturbed.",
+    "life_cycle_days": 21,
+    "economic_threshold_level": "5-10 adults per leaf (top 3 leaves)",
+    "management": {
+      "cultural": ["Install yellow sticky traps (12/acre)", "Remove alternate host weeds", "Avoid excessive nitrogen", "Border rows of maize/sorghum"],
+      "biological": ["Release Encarsia formosa parasitoid", "Conserve lady beetles and lacewings", "Spray Beauveria bassiana (2g/L)"],
+      "chemical": ["Spiromesifen 22.9% SC (0.8ml/L)", "Diafenthiuron 50% WP (1g/L)", "Pyriproxyfen 10% EC (1ml/L) — IGR for nymphs"],
+      "organic": ["Neem oil 5% spray", "Yellow sticky traps", "Reflective mulch (silver/aluminum)"]
+    },
+    "peak_season": "July-October (Kharif season)",
+    "regions": ["Gujarat", "Punjab", "Haryana", "Rajasthan", "Maharashtra"]
+  },
+  {
+    "id": "P002",
+    "name": "Helicoverpa armigera (Fruit Borer / Pod Borer)",
+    "scientific_name": "Helicoverpa armigera",
+    "category": "Lepidopteran Pest",
+    "crops_affected": ["Tomato", "Chickpea", "Pigeon Pea", "Cotton", "Maize", "Sunflower"],
+    "damage": [
+      "Larvae bore into fruits, pods, and bolls from inside",
+      "Single larva can destroy 8-10 tomato fruits",
+      "Causes 30-40% yield loss in chickpea and pigeon pea",
+      "Difficult to control once inside the fruit"
+    ],
+    "identification": "Moth: yellowish-brown with dark spots on forewings. Larva: green/brown with dark stripes, up to 4cm.",
+    "life_cycle_days": 30,
+    "economic_threshold_level": "1-2 larvae per plant (tomato); 2-3 per meter row (chickpea)",
+    "management": {
+      "cultural": ["Pheromone traps (5/acre) for monitoring", "Bird perches (10/acre)", "Deep summer plowing", "Intercropping with coriander/marigold"],
+      "biological": ["HaNPV (Helicoverpa Nuclear Polyhedrosis Virus) — 250 LE/acre at dusk", "Release Trichogramma chilonis (8 cards/acre)", "Bt spray (Bacillus thuringiensis) 1g/L"],
+      "chemical": ["Emamectin Benzoate 5% SG (0.4g/L)", "Chlorantraniliprole 18.5% SC (0.3ml/L)", "Spinosad 45% SC (0.3ml/L)"],
+      "organic": ["Neem Seed Kernel Extract 5%", "HaNPV biological spray", "Pheromone mass trapping"]
+    },
+    "peak_season": "September-November",
+    "regions": ["All India — most polyphagous pest"]
+  },
+  {
+    "id": "P003",
+    "name": "Brown Plant Hopper (BPH)",
+    "scientific_name": "Nilaparvata lugens",
+    "category": "Sucking Pest",
+    "crops_affected": ["Rice"],
+    "damage": [
+      "Sucks phloem at stem base causing 'hopper burn' — circular patches of dried plants",
+      "Excretes honeydew causing sooty mold",
+      "Transmits grassy stunt and ragged stunt viruses",
+      "Can cause complete crop loss in severe outbreaks"
+    ],
+    "identification": "Brown 3-4mm insects at base of rice tillers near water level. Can jump/fly.",
+    "life_cycle_days": 25,
+    "economic_threshold_level": "5-10 per hill (tiller base)",
+    "management": {
+      "cultural": ["Avoid excessive nitrogen (>120 kg N/ha)", "Maintain 2-3cm standing water (not flood)", "Wide spacing (25x25cm SRI)"],
+      "biological": ["Conserve spiders (Lycosa, Tetragnatha) — avoid broad-spectrum sprays", "Mirid bug predators"],
+      "chemical": ["Pymetrozine 50% WG (0.6g/L)", "Dinotefuran 20% SG (0.5g/L)", "Buprofezin 25% SC (2ml/L) — IGR"],
+      "organic": ["Fish introduction in paddy (eats BPH)", "Conserve spider populations"]
+    },
+    "peak_season": "August-October",
+    "regions": ["Andhra Pradesh", "Tamil Nadu", "West Bengal", "Odisha"]
+  },
+  {
+    "id": "P004",
+    "name": "Fall Armyworm",
+    "scientific_name": "Spodoptera frugiperda",
+    "category": "Lepidopteran Pest (Invasive)",
+    "crops_affected": ["Maize", "Sorghum", "Rice", "Sugarcane", "Cotton"],
+    "damage": [
+      "Larvae feed voraciously on leaves — windowpane effect then ragged holes",
+      "Bore into growing point (whorl) of maize causing dead hearts",
+      "Massive frass visible in whorl",
+      "Newly invasive in India (since 2018) — spreading rapidly across states"
+    ],
+    "identification": "Larva: brown/green with inverted Y mark on head, 4 dark spots in square pattern on last segment. Moth: grey-brown.",
+    "life_cycle_days": 30,
+    "economic_threshold_level": "5-10% plants with leaf damage",
+    "management": {
+      "cultural": ["Pheromone traps (5/acre) for early detection", "Intercropping with pulses/beans", "Destroy crop residue immediately after harvest"],
+      "biological": ["Spray SNPV (Spodoptera NPV) 250 LE/acre", "Release Telenomus remus egg parasitoid", "Bt spray at early larval stage"],
+      "chemical": ["Emamectin Benzoate 5% SG (0.4g/L)", "Chlorantraniliprole 18.5% SC (0.4ml/L)", "Spinetoram 11.7% SC (0.5ml/L)"],
+      "organic": ["Sand + lime (9:1) applied into whorls", "Neem seed kernel extract 5%"]
+    },
+    "peak_season": "July-September (coincides with maize Kharif crop)",
+    "regions": ["Karnataka", "Tamil Nadu", "Andhra Pradesh", "Maharashtra", "Madhya Pradesh"]
+  },
+  {
+    "id": "P005",
+    "name": "Aphids",
+    "scientific_name": "Aphis gossypii / Myzus persicae",
+    "category": "Sucking Pest",
+    "crops_affected": ["Mustard", "Wheat", "Potato", "Chili", "Okra", "Brinjal", "Pulses"],
+    "damage": [
+      "Suck sap from tender shoots, leaves, and flowers",
+      "Cause leaf curling, yellowing, and stunting",
+      "Secrete honeydew leading to sooty mold",
+      "Vector for numerous plant viruses (Potato Leaf Roll, CMV)"
+    ],
+    "identification": "Soft-bodied, pear-shaped, 1-3mm. Green, yellow, or black colonies on growing tips and leaf undersides.",
+    "life_cycle_days": 7,
+    "economic_threshold_level": "25-30 aphids per plant (mustard); 50 per ear head (wheat)",
+    "management": {
+      "cultural": ["Early sowing to escape peak populations", "Remove weeds (alternate hosts)", "Balanced fertilization (avoid excess N)"],
+      "biological": ["Lady beetles (Coccinella septempunctata) — most effective predator", "Syrphid fly larvae", "Aphidius colemani parasitoid wasp"],
+      "chemical": ["Imidacloprid 17.8% SL (0.3ml/L)", "Thiamethoxam 25% WG (0.2g/L)", "Dimethoate 30% EC (1.7ml/L)"],
+      "organic": ["Neem oil 2% spray", "Soap spray (5g liquid soap/L)", "Strong water jet to dislodge colonies"]
+    },
+    "peak_season": "December-February (Rabi season)",
+    "regions": ["All India — ubiquitous pest"]
+  },
+  {
+    "id": "P006",
+    "name": "Pink Bollworm",
+    "scientific_name": "Pectinophora gossypiella",
+    "category": "Lepidopteran Pest",
+    "crops_affected": ["Cotton"],
+    "damage": [
+      "Larvae bore into green bolls and feed on lint and seeds",
+      "Rosette flower (stuck petals) is diagnostic symptom",
+      "Causes 20-60% yield loss in late-season cotton",
+      "Has developed resistance to Cry1Ac protein in Bt cotton in several regions"
+    ],
+    "identification": "Moth: small brown (7-8mm). Larva: pink with brown head, found inside bolls.",
+    "life_cycle_days": 25,
+    "economic_threshold_level": "8-10% boll damage or 8 moths/trap/week in pheromone traps",
+    "management": {
+      "cultural": ["Timely picking of mature bolls", "Destroy crop residue by mid-February", "Short-duration varieties (avoid late-season bolls)"],
+      "biological": ["Mass trapping with pheromone traps (5/acre)", "Mating disruption using pheromone dispensers", "Trichogramma bactrae release"],
+      "chemical": ["Profenophos 50% EC (2ml/L) — rotate with other chemistries", "Thiodicarb 75% WP (1.5g/L)"],
+      "organic": ["Pheromone mass trapping", "Timely crop destruction"]
+    },
+    "peak_season": "September-November (late Kharif)",
+    "regions": ["Gujarat", "Maharashtra", "Telangana", "Andhra Pradesh", "Madhya Pradesh"]
+  }
+]

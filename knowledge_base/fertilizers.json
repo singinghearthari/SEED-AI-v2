@@ -1,0 +1,142 @@
+[
+  {
+    "id": "F001",
+    "name": "Urea (46% N)",
+    "category": "Nitrogenous",
+    "nutrient_content": {"N": 46},
+    "form": "White granular",
+    "application_method": "Basal + top dressing in 2-3 splits",
+    "best_for": ["All crops", "Especially cereals and vegetables"],
+    "price_per_kg_inr": 5.36,
+    "subsidy": "Heavily subsidized (MRP fixed by GoI)",
+    "precautions": [
+      "Do not apply on wet foliage — causes leaf burn",
+      "Apply in moist soil and cover immediately to prevent volatilization",
+      "Do not apply near seed — causes germination injury",
+      "Split application reduces nitrogen losses by 30-40%"
+    ],
+    "best_time": "Basal at sowing, 1st top dressing at 25-30 DAS, 2nd at 45-50 DAS"
+  },
+  {
+    "id": "F002",
+    "name": "DAP (Diammonium Phosphate)",
+    "category": "Phosphatic",
+    "nutrient_content": {"N": 18, "P": 46},
+    "form": "Dark brown/grey granular",
+    "application_method": "Basal application at sowing; place below seed",
+    "best_for": ["All crops", "Especially pulses, oilseeds, wheat"],
+    "price_per_kg_inr": 27,
+    "subsidy": "Subsidized under NBS scheme",
+    "precautions": [
+      "Apply as basal dose only — phosphorus is immobile in soil",
+      "Place 5-7cm below and to the side of seed row",
+      "Excess use leads to zinc/iron deficiency — add micronutrients",
+      "Avoid surface broadcasting — phosphorus fixation in calcareous soils"
+    ],
+    "best_time": "At sowing or transplanting only"
+  },
+  {
+    "id": "F003",
+    "name": "MOP (Muriate of Potash)",
+    "category": "Potassic",
+    "nutrient_content": {"K": 60},
+    "form": "White/pink crystalline",
+    "application_method": "Basal application; split in high-demand crops",
+    "best_for": ["Potato", "Banana", "Sugarcane", "Fruit crops"],
+    "price_per_kg_inr": 17,
+    "subsidy": "Subsidized under NBS scheme",
+    "precautions": [
+      "Avoid in chloride-sensitive crops (tobacco, grapes, citrus) — use SOP instead",
+      "High chloride can reduce quality in fruits and potatoes",
+      "Apply in split doses for sandy soils (prone to leaching)"
+    ],
+    "best_time": "Basal at sowing; for sugarcane: 50% basal + 50% at earthing up"
+  },
+  {
+    "id": "F004",
+    "name": "NPK Complex (10:26:26)",
+    "category": "Complex",
+    "nutrient_content": {"N": 10, "P": 26, "K": 26},
+    "form": "Grey/brown granular",
+    "application_method": "Basal application",
+    "best_for": ["Vegetables", "Pulses", "Oilseeds"],
+    "price_per_kg_inr": 24,
+    "subsidy": "Subsidized under NBS scheme",
+    "precautions": [
+      "Provides balanced nutrition — reduces need for separate fertilizers",
+      "Still need additional urea for nitrogen top dressing"
+    ],
+    "best_time": "At sowing/transplanting"
+  },
+  {
+    "id": "F005",
+    "name": "SSP (Single Super Phosphate)",
+    "category": "Phosphatic + Sulphur",
+    "nutrient_content": {"P": 16, "S": 11, "Ca": 20},
+    "form": "Grey powder/granular",
+    "application_method": "Basal application",
+    "best_for": ["Oilseeds (mustard, groundnut)", "Pulses", "Onion", "Garlic"],
+    "price_per_kg_inr": 8,
+    "subsidy": "Subsidized",
+    "precautions": [
+      "Excellent for sulphur-loving crops (oilseeds, onion)",
+      "Cheaper source of phosphorus than DAP",
+      "Also provides calcium — good for acidic soils"
+    ],
+    "best_time": "At sowing; mix with soil before planting"
+  },
+  {
+    "id": "F006",
+    "name": "Zinc Sulphate (ZnSO4 33%)",
+    "category": "Micronutrient",
+    "nutrient_content": {"Zn": 33, "S": 15},
+    "form": "White crystalline powder",
+    "application_method": "Soil application (10-25 kg/ha) or foliar spray (0.5%)",
+    "best_for": ["Rice", "Wheat", "Maize", "Citrus", "Vegetables"],
+    "price_per_kg_inr": 55,
+    "subsidy": "Partial subsidy in some states",
+    "precautions": [
+      "Most deficient micronutrient in Indian soils (48% soils zinc-deficient)",
+      "Critical for rice — zinc deficiency causes 'khaira' disease",
+      "Foliar spray: dissolve in warm water, add lime to neutralize acidity",
+      "Do not mix with DAP/phosphatic fertilizers — zinc fixation occurs"
+    ],
+    "best_time": "Soil application before sowing; foliar spray at 30 and 60 DAS"
+  },
+  {
+    "id": "F007",
+    "name": "Vermicompost",
+    "category": "Organic",
+    "nutrient_content": {"N": 1.5, "P": 0.5, "K": 0.8, "OC_percent": 18},
+    "form": "Dark brown granular humus",
+    "application_method": "Soil application at 2-4 tonnes per acre",
+    "best_for": ["All crops", "Especially vegetables and fruit trees"],
+    "price_per_kg_inr": 8,
+    "subsidy": "Subsidized under organic farming schemes (PKVY, MOVCDNER)",
+    "precautions": [
+      "Apply 2-3 weeks before sowing for nutrient release",
+      "Improves soil structure, water retention, and microbial activity",
+      "Supplement with bio-fertilizers (Rhizobium, PSB, Azotobacter) for best results",
+      "Quality vermicompost should have C:N ratio < 20:1"
+    ],
+    "best_time": "2-3 weeks before sowing, incorporate into soil"
+  },
+  {
+    "id": "F008",
+    "name": "Neem Coated Urea",
+    "category": "Nitrogenous (Slow Release)",
+    "nutrient_content": {"N": 46},
+    "form": "Neem oil coated white granular",
+    "application_method": "Same as urea; slow release reduces need for split application",
+    "best_for": ["All crops", "Mandatory in India since 2015"],
+    "price_per_kg_inr": 5.36,
+    "subsidy": "Same as urea (100% production is neem-coated in India)",
+    "precautions": [
+      "Reduces nitrogen losses by 10-15% through nitrification inhibition",
+      "Acts as pest deterrent for soil insects (termites, nematodes)",
+      "Can be used for all crops where urea is recommended",
+      "Slower nutrient release — better efficiency in sandy soils"
+    ],
+    "best_time": "Same schedule as conventional urea"
+  }
+]

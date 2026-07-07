@@ -1,0 +1,68 @@
+{
+  "msp_2024_25": {
+    "description": "Minimum Support Prices declared by Government of India for major crops (2024-25 season)",
+    "source": "Commission for Agricultural Costs and Prices (CACP)",
+    "kharif": {
+      "Paddy (Common)": {"msp_per_quintal": 2300, "cost_of_production": 1455},
+      "Paddy (Grade A)": {"msp_per_quintal": 2320, "cost_of_production": 1455},
+      "Jowar (Hybrid)": {"msp_per_quintal": 3371, "cost_of_production": 2153},
+      "Jowar (Maldandi)": {"msp_per_quintal": 3421, "cost_of_production": 2153},
+      "Bajra": {"msp_per_quintal": 2625, "cost_of_production": 1553},
+      "Ragi": {"msp_per_quintal": 4290, "cost_of_production": 2734},
+      "Maize": {"msp_per_quintal": 2225, "cost_of_production": 1394},
+      "Tur/Arhar": {"msp_per_quintal": 7550, "cost_of_production": 4425},
+      "Moong": {"msp_per_quintal": 8682, "cost_of_production": 5634},
+      "Urad": {"msp_per_quintal": 7400, "cost_of_production": 4585},
+      "Groundnut": {"msp_per_quintal": 6783, "cost_of_production": 4185},
+      "Sunflower Seed": {"msp_per_quintal": 7280, "cost_of_production": 4644},
+      "Soyabean (Yellow)": {"msp_per_quintal": 4892, "cost_of_production": 3050},
+      "Sesamum": {"msp_per_quintal": 9267, "cost_of_production": 6053},
+      "Nigerseed": {"msp_per_quintal": 8717, "cost_of_production": 5765},
+      "Cotton (Medium Staple)": {"msp_per_quintal": 7121, "cost_of_production": 4479},
+      "Cotton (Long Staple)": {"msp_per_quintal": 7521, "cost_of_production": 4479}
+    },
+    "rabi": {
+      "Wheat": {"msp_per_quintal": 2275, "cost_of_production": 1128},
+      "Barley": {"msp_per_quintal": 1850, "cost_of_production": 1082},
+      "Gram (Chana)": {"msp_per_quintal": 5650, "cost_of_production": 3441},
+      "Masur (Lentil)": {"msp_per_quintal": 6425, "cost_of_production": 3596},
+      "Rapeseed/Mustard": {"msp_per_quintal": 5950, "cost_of_production": 3118},
+      "Safflower": {"msp_per_quintal": 5940, "cost_of_production": 3958}
+    },
+    "other": {
+      "Sugarcane (FRP)": {"msp_per_quintal": 315, "note": "Fair & Remunerative Price at 10.25% recovery"},
+      "Copra (Milling)": {"msp_per_quintal": 11582, "cost_of_production": 7511},
+      "Jute": {"msp_per_quintal": 5350, "cost_of_production": 3293}
+    }
+  },
+  "market_seasons": {
+    "peak_arrival_months": {
+      "Tomato": ["January-March", "October-November"],
+      "Onion": ["November-December (Kharif)", "April-May (Rabi)"],
+      "Potato": ["January-March"],
+      "Wheat": ["April-May"],
+      "Rice": ["October-December"],
+      "Cotton": ["November-January"],
+      "Soybean": ["October-November"],
+      "Sugarcane": ["November-April"]
+    },
+    "price_volatility_index": {
+      "Tomato": "Very High (5x variation possible within year)",
+      "Onion": "Very High (10x variation possible)",
+      "Potato": "High (3x variation)",
+      "Wheat": "Low (MSP floor provides stability)",
+      "Rice": "Low (MSP supported)",
+      "Cotton": "Medium (global price linkage)"
+    }
+  },
+  "major_mandis": {
+    "Azadpur (Delhi)": {"type": "APMC", "specialty": "Fruits & Vegetables", "daily_arrivals_mt": 10000},
+    "Vashi (Mumbai)": {"type": "APMC", "specialty": "Fruits & Vegetables", "daily_arrivals_mt": 6000},
+    "Lasalgaon (Nashik)": {"type": "APMC", "specialty": "Onion", "daily_arrivals_mt": 15000},
+    "Pimpalgaon (Nashik)": {"type": "APMC", "specialty": "Onion", "daily_arrivals_mt": 8000},
+    "Kurnool (AP)": {"type": "APMC", "specialty": "Chili & Turmeric", "daily_arrivals_mt": 5000},
+    "Khanna (Punjab)": {"type": "APMC", "specialty": "Wheat & Paddy", "daily_arrivals_mt": 12000},
+    "Rajkot (Gujarat)": {"type": "APMC", "specialty": "Groundnut & Cotton", "daily_arrivals_mt": 4000},
+    "Devaraja Market (Mysore)": {"type": "APMC", "specialty": "Sandalwood, Betel", "daily_arrivals_mt": 500}
+  }
+}

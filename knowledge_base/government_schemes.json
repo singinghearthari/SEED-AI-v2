@@ -1,0 +1,230 @@
+[
+  {
+    "id": "GS001",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "type": "Crop Insurance",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "India's flagship crop insurance scheme providing comprehensive risk coverage against crop failure due to non-preventable natural risks from pre-sowing to post-harvest.",
+    "eligibility": [
+      "All farmers growing notified crops in notified areas",
+      "Sharecroppers and tenant farmers with insurable interest",
+      "Both loanee and non-loanee farmers (voluntary for non-loanee since Kharif 2020)"
+    ],
+    "benefits": "Financial support covering prevented sowing, standing crop loss, post-harvest losses (up to 14 days), and localized calamities. Full sum insured with no capping.",
+    "premium_rate": "Kharif: 2% of sum insured; Rabi: 1.5%; Commercial/Horticultural: 5%",
+    "coverage": ["Drought", "Flood", "Hailstorm", "Cyclone", "Pest/Disease attack", "Fire", "Lightning"],
+    "how_to_apply": [
+      "Visit nearest bank branch or CSC (Common Service Centre)",
+      "Apply online at pmfby.gov.in",
+      "Required documents: Aadhaar card, land records, bank account details, sowing certificate",
+      "Apply within 2 weeks of sowing date"
+    ],
+    "claim_process": "Crop Cutting Experiments (CCE) + remote sensing technology. Claims settled within 2 months via Direct Benefit Transfer (DBT) to bank account.",
+    "budget_2024_25_crore": 15500,
+    "website": "https://pmfby.gov.in",
+    "helpline": "1800-180-1551"
+  },
+  {
+    "id": "GS002",
+    "name": "PM Kisan Samman Nidhi (PM-KISAN)",
+    "type": "Income Support",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Direct income support of ₹6,000 per year to all landholding farmer families, paid in three equal installments every four months via Direct Benefit Transfer.",
+    "eligibility": [
+      "All landholding farmer families with cultivable land",
+      "Small and marginal farmers prioritized",
+      "Exclusions: institutional landholders, income tax payers, government servants, professionals"
+    ],
+    "benefits": "₹6,000 per year in 3 installments of ₹2,000 each (Apr-Jul, Aug-Nov, Dec-Mar)",
+    "how_to_apply": [
+      "Register at pmkisan.gov.in or visit local Patwari/Revenue officer",
+      "Required: Aadhaar card, land ownership documents, bank account with IFSC",
+      "State government validates land records",
+      "e-KYC mandatory for receiving payments"
+    ],
+    "beneficiaries_crore": 11.8,
+    "total_disbursed_crore": 325000,
+    "website": "https://pmkisan.gov.in",
+    "helpline": "155261"
+  },
+  {
+    "id": "GS003",
+    "name": "Kisan Credit Card (KCC)",
+    "type": "Credit/Loan",
+    "ministry": "Ministry of Finance / NABARD",
+    "description": "Provides affordable short-term credit to farmers for crop production, post-harvest expenses, and consumption needs at subsidized interest rates (4% with prompt repayment).",
+    "eligibility": [
+      "All farmers — individual/joint owners, tenant farmers, sharecroppers, SHGs",
+      "Also covers fisheries and animal husbandry sectors",
+      "Must have valid land records or tenancy agreement"
+    ],
+    "benefits": "Crop loan up to ₹3 lakh at 4% interest (7% minus 3% interest subvention for prompt repayment). No collateral required up to ₹1.6 lakh. Personal accident insurance of ₹50,000.",
+    "credit_limit": "Based on operational land holding, cropping pattern, and scale of finance",
+    "how_to_apply": [
+      "Apply at any commercial bank, cooperative bank, or RRB",
+      "Required: land records, identity proof, passport-size photo",
+      "One-page application form available at bank branches",
+      "Approval typically within 14 days"
+    ],
+    "interest_rate": "4% p.a. (with interest subvention); 7% without",
+    "website": "https://www.nabard.org",
+    "helpline": "1800-425-0525"
+  },
+  {
+    "id": "GS004",
+    "name": "Soil Health Card Scheme",
+    "type": "Advisory/Testing",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Government scheme to issue Soil Health Cards to all farmers carrying crop-wise recommendations for nutrients and fertilizers based on scientific soil testing.",
+    "eligibility": [
+      "All farmers across India",
+      "Free of cost soil testing",
+      "Cards issued every 2 years per farm holding"
+    ],
+    "benefits": "Free soil test with recommendations for 6 nutrients (N, P, K, S, Zn, Fe). Helps optimize fertilizer use, reduce costs by 10-15%, and improve crop yield by 5-8%.",
+    "how_to_apply": [
+      "Register at soilhealth.dac.gov.in",
+      "Visit nearest Krishi Vigyan Kendra (KVK) or soil testing lab",
+      "Collect soil sample from field (6-inch depth) and submit",
+      "Receive digital or printed Soil Health Card within 30-45 days"
+    ],
+    "cards_issued_crore": 23.5,
+    "website": "https://soilhealth.dac.gov.in",
+    "helpline": "1800-180-1551"
+  },
+  {
+    "id": "GS005",
+    "name": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+    "type": "Irrigation Subsidy",
+    "ministry": "Ministry of Agriculture / Ministry of Jal Shakti",
+    "description": "Per Drop More Crop — provides subsidies for micro-irrigation (drip and sprinkler) to improve water use efficiency, reduce costs, and increase farm productivity.",
+    "eligibility": [
+      "All categories of farmers",
+      "55% subsidy for small/marginal farmers; 45% for others",
+      "Higher subsidy (up to 90%) in certain NE states and hilly areas"
+    ],
+    "benefits": "55% subsidy on drip/sprinkler systems. Saves 30-60% water, increases yield by 20-40%. Fertigation capability reduces fertilizer costs by 25%.",
+    "how_to_apply": [
+      "Apply through state agriculture department or district horticulture office",
+      "Online application on respective state portal",
+      "Required: land documents, Aadhaar, bank account, water source proof",
+      "Select empanelled supplier for micro-irrigation system installation"
+    ],
+    "area_covered_lakh_ha": 78,
+    "website": "https://pmksy.gov.in",
+    "helpline": "1800-180-1551"
+  },
+  {
+    "id": "GS006",
+    "name": "e-NAM (National Agriculture Market)",
+    "type": "Market Access",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Online trading platform connecting APMC mandis across India, enabling farmers to sell produce to buyers across state borders at competitive prices.",
+    "eligibility": [
+      "All farmers with produce to sell",
+      "Must register at nearest e-NAM enabled mandi",
+      "Free registration"
+    ],
+    "benefits": "Access to buyers across 1,361 mandis in 23 states. Transparent price discovery, online payment, reduced intermediaries, better price realization (5-15% more than traditional mandi).",
+    "how_to_apply": [
+      "Register at enam.gov.in or visit e-NAM enabled mandi",
+      "Required: Aadhaar, bank account, produce details",
+      "Quality testing done at mandi gate",
+      "Payment directly to bank account within 3 days"
+    ],
+    "mandis_integrated": 1361,
+    "website": "https://enam.gov.in",
+    "helpline": "1800-270-0224"
+  },
+  {
+    "id": "GS007",
+    "name": "PM Kisan Maandhan Yojana",
+    "type": "Pension",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Voluntary contributory pension scheme for small and marginal farmers. Government matches farmer's monthly contribution to provide ₹3,000/month pension after age 60.",
+    "eligibility": [
+      "Small and marginal farmers aged 18-40 years",
+      "Landholding up to 2 hectares",
+      "Not covered under other social security schemes"
+    ],
+    "benefits": "₹3,000 per month pension after age 60. Monthly contribution ₹55-200 based on age of entry. Equal contribution by government. Family pension for spouse.",
+    "how_to_apply": [
+      "Register at pmkmy.gov.in or nearest CSC",
+      "Required: Aadhaar, bank account, age proof",
+      "Monthly auto-debit from bank account",
+      "CSC operator charges ₹30 for registration"
+    ],
+    "website": "https://pmkmy.gov.in",
+    "helpline": "1800-267-6888"
+  },
+  {
+    "id": "GS008",
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "type": "Infrastructure Loan",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "₹1 lakh crore financing facility for post-harvest management infrastructure — cold storage, warehouses, processing units, grading/sorting facilities.",
+    "eligibility": [
+      "Farmers, FPOs, PACS, cooperatives, startups, agri-entrepreneurs",
+      "Loan up to ₹2 crore per project",
+      "Multiple projects allowed per beneficiary"
+    ],
+    "benefits": "3% interest subvention on loans up to ₹2 crore. CGTMSE credit guarantee fee waiver. Moratorium period available. Loan tenure up to 10 years.",
+    "how_to_apply": [
+      "Apply online at agriinfra.dac.gov.in",
+      "Prepare Detailed Project Report (DPR)",
+      "Apply through any scheduled commercial bank, NBFC, or cooperative bank",
+      "Sanction typically within 60 days"
+    ],
+    "corpus_crore": 100000,
+    "website": "https://agriinfra.dac.gov.in",
+    "helpline": "1800-11-0031"
+  },
+  {
+    "id": "GS009",
+    "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "type": "Organic Farming Subsidy",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Promotes organic farming through cluster-based approach. Provides financial assistance of ₹50,000 per hectare over 3 years for organic inputs, certification, and marketing.",
+    "eligibility": [
+      "Group of 50+ farmers in a cluster covering 50+ hectares",
+      "Willing to convert to organic for minimum 3 years",
+      "Land should be in contiguous block for certification"
+    ],
+    "benefits": "₹50,000/ha over 3 years (₹31,000 for organic inputs, ₹8,800 for value addition, ₹5,000 for certification, ₹5,200 for packaging/transport). PGS-India organic certification.",
+    "how_to_apply": [
+      "Form a Local Group of 50 farmers with 50 hectares",
+      "Apply through district agriculture office",
+      "Register on pgsindia-ncof.gov.in for certification",
+      "Submit organic management plan for 3 years"
+    ],
+    "clusters_active": 47000,
+    "website": "https://pgsindia-ncof.gov.in",
+    "helpline": "1800-180-1551"
+  },
+  {
+    "id": "GS010",
+    "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "type": "Equipment Subsidy",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Provides subsidies on purchase of farm machinery and equipment. Also supports Custom Hiring Centers (CHCs) for shared machinery access.",
+    "eligibility": [
+      "All farmers; higher subsidy for SC/ST/small/marginal farmers",
+      "40-50% subsidy on equipment purchase",
+      "80% subsidy for establishment of CHCs by cooperatives/FPOs"
+    ],
+    "benefits": "40-50% subsidy on tractors, harvesters, seed drills, sprayers, threshers, etc. Up to 80% subsidy for Custom Hiring Centers. Free training on machinery operation.",
+    "equipment_covered": [
+      "Power Tillers", "Rotavators", "Seed-cum-Fertilizer Drills",
+      "Combine Harvesters", "Paddy Transplanters", "Solar Sprayers",
+      "Laser Land Levelers", "Straw Balers", "Multi-crop Threshers"
+    ],
+    "how_to_apply": [
+      "Apply on agrimachinery.nic.in or state portal",
+      "Required: Aadhaar, land records, bank account, dealer quotation",
+      "Selection through lottery in case of excess applications",
+      "Subsidy credited directly to bank after purchase verification"
+    ],
+    "website": "https://agrimachinery.nic.in",
+    "helpline": "1800-180-1551"
+  }
+]

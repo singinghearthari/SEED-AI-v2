@@ -1,0 +1,464 @@
+[
+  {
+    "disease_id": "D001",
+    "disease_name": "Early Blight",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Chlorothalonil 75% WP",
+        "dosage": "2g per liter of water",
+        "application": "Foliar spray every 7-10 days starting at first symptom",
+        "cost_estimate_inr": 450,
+        "effectiveness": "High",
+        "waiting_period_days": 7,
+        "brand_examples": ["Kavach", "Daconil"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Mancozeb 75% WP",
+        "dosage": "2.5g per liter of water",
+        "application": "Preventive spray every 10 days, start before symptom onset",
+        "cost_estimate_inr": 280,
+        "effectiveness": "High",
+        "waiting_period_days": 14,
+        "brand_examples": ["Dithane M-45", "Indofil M-45"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Azoxystrobin 23% SC",
+        "dosage": "1ml per liter of water",
+        "application": "Spray at early infection, repeat after 14 days",
+        "cost_estimate_inr": 800,
+        "effectiveness": "Very High",
+        "waiting_period_days": 5,
+        "brand_examples": ["Amistar", "Heritage"]
+      },
+      {
+        "type": "Organic",
+        "name": "Copper Oxychloride 50% WP",
+        "dosage": "3g per liter of water",
+        "application": "Spray every 7-14 days as preventive",
+        "cost_estimate_inr": 300,
+        "effectiveness": "Medium",
+        "waiting_period_days": 7,
+        "brand_examples": ["Blitox", "Blue Copper"]
+      },
+      {
+        "type": "Biological",
+        "name": "Trichoderma viride",
+        "dosage": "5g per liter of water (soil application: 1kg per acre mixed with FYM)",
+        "application": "Soil application before planting + foliar spray at 30-day intervals",
+        "cost_estimate_inr": 200,
+        "effectiveness": "Medium",
+        "waiting_period_days": 0,
+        "brand_examples": ["Niprot", "Bioderma"]
+      },
+      {
+        "type": "Cultural",
+        "name": "Crop Rotation + Resistant Varieties",
+        "dosage": "N/A",
+        "application": "Rotate with non-solanaceous crops for 2-3 years. Use resistant varieties like Arka Rakshak, Arka Samrat",
+        "cost_estimate_inr": 0,
+        "effectiveness": "High (long-term)",
+        "waiting_period_days": 0,
+        "brand_examples": []
+      }
+    ]
+  },
+  {
+    "disease_id": "D002",
+    "disease_name": "Late Blight",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Metalaxyl 8% + Mancozeb 64% WP",
+        "dosage": "2.5g per liter of water",
+        "application": "Spray immediately on detection; repeat every 7 days in wet weather",
+        "cost_estimate_inr": 650,
+        "effectiveness": "Very High",
+        "waiting_period_days": 14,
+        "brand_examples": ["Ridomil Gold", "Master"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Cymoxanil 8% + Mancozeb 64% WP",
+        "dosage": "3g per liter of water",
+        "application": "Preventive + curative; spray at 7-10 day intervals",
+        "cost_estimate_inr": 550,
+        "effectiveness": "High",
+        "waiting_period_days": 7,
+        "brand_examples": ["Curzate M-8"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Dimethomorph 50% WP",
+        "dosage": "1g per liter of water",
+        "application": "Foliar spray at early infection stage",
+        "cost_estimate_inr": 900,
+        "effectiveness": "Very High",
+        "waiting_period_days": 3,
+        "brand_examples": ["Acrobat", "Forum"]
+      },
+      {
+        "type": "Organic",
+        "name": "Bordeaux Mixture (1%)",
+        "dosage": "CuSO4 1kg + Lime 1kg in 100L water",
+        "application": "Spray as protective coating before rain season starts",
+        "cost_estimate_inr": 250,
+        "effectiveness": "Medium",
+        "waiting_period_days": 14,
+        "brand_examples": []
+      }
+    ]
+  },
+  {
+    "disease_id": "D003",
+    "disease_name": "Powdery Mildew",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Dinocap 48% EC",
+        "dosage": "1ml per liter of water",
+        "application": "Spray at first symptom; repeat every 10-15 days",
+        "cost_estimate_inr": 500,
+        "effectiveness": "High",
+        "waiting_period_days": 7,
+        "brand_examples": ["Karathane"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Hexaconazole 5% SC",
+        "dosage": "2ml per liter of water",
+        "application": "Spray at disease onset",
+        "cost_estimate_inr": 350,
+        "effectiveness": "High",
+        "waiting_period_days": 14,
+        "brand_examples": ["Contaf", "Hexadhan"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Sulphur 80% WP (Wettable Sulphur)",
+        "dosage": "3g per liter of water",
+        "application": "Spray every 10-15 days; avoid in temperatures above 35°C",
+        "cost_estimate_inr": 150,
+        "effectiveness": "High",
+        "waiting_period_days": 7,
+        "brand_examples": ["Sulfex", "Thiovit Jet"]
+      },
+      {
+        "type": "Organic",
+        "name": "Neem Oil 3%",
+        "dosage": "5ml per liter of water + liquid soap",
+        "application": "Spray weekly as preventive",
+        "cost_estimate_inr": 180,
+        "effectiveness": "Medium",
+        "waiting_period_days": 0,
+        "brand_examples": ["Neem Azal", "NeemGold"]
+      }
+    ]
+  },
+  {
+    "disease_id": "D004",
+    "disease_name": "Bacterial Leaf Blight",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Streptocycline (Streptomycin Sulphate 90% + Tetracycline 10%)",
+        "dosage": "0.5g per 10 liters of water",
+        "application": "Spray at first symptom; repeat after 10 days",
+        "cost_estimate_inr": 120,
+        "effectiveness": "Medium-High",
+        "waiting_period_days": 14,
+        "brand_examples": ["Streptocycline", "Plantomycin"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Copper Hydroxide 77% WP",
+        "dosage": "2.5g per liter of water",
+        "application": "Preventive spray before monsoon season",
+        "cost_estimate_inr": 400,
+        "effectiveness": "Medium",
+        "waiting_period_days": 14,
+        "brand_examples": ["Kocide", "Champion"]
+      },
+      {
+        "type": "Cultural",
+        "name": "Resistant Varieties + Water Management",
+        "dosage": "N/A",
+        "application": "Use BLB-resistant varieties (Improved Samba Mahsuri, Rajendra Dhan). Ensure proper drainage; avoid excess nitrogen (>120 kg/ha)",
+        "cost_estimate_inr": 0,
+        "effectiveness": "High",
+        "waiting_period_days": 0,
+        "brand_examples": []
+      }
+    ]
+  },
+  {
+    "disease_id": "D005",
+    "disease_name": "Rice Blast",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Tricyclazole 75% WP",
+        "dosage": "0.6g per liter of water",
+        "application": "Spray at tillering + boot leaf + panicle emergence stages",
+        "cost_estimate_inr": 600,
+        "effectiveness": "Very High",
+        "waiting_period_days": 21,
+        "brand_examples": ["Beam", "Baan"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Isoprothiolane 40% EC",
+        "dosage": "1.5ml per liter of water",
+        "application": "Spray 2-3 times at 15-day intervals during vegetative stage",
+        "cost_estimate_inr": 500,
+        "effectiveness": "High",
+        "waiting_period_days": 21,
+        "brand_examples": ["Fujione"]
+      },
+      {
+        "type": "Biological",
+        "name": "Pseudomonas fluorescens",
+        "dosage": "10g per liter of water (seed treatment: 10g per kg seed)",
+        "application": "Seed treatment + 3 foliar sprays at 15-day intervals starting 20 DAT",
+        "cost_estimate_inr": 180,
+        "effectiveness": "Medium",
+        "waiting_period_days": 0,
+        "brand_examples": ["Sudozone", "Plantguard"]
+      }
+    ]
+  },
+  {
+    "disease_id": "D006",
+    "disease_name": "Downy Mildew",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Metalaxyl 35% WS",
+        "dosage": "Seed treatment: 6g per kg seed",
+        "application": "Seed treatment before sowing (pearl millet, sunflower)",
+        "cost_estimate_inr": 700,
+        "effectiveness": "Very High",
+        "waiting_period_days": 0,
+        "brand_examples": ["Apron 35 SD"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Fosetyl-Al 80% WP",
+        "dosage": "2.5g per liter of water",
+        "application": "Foliar spray at first symptom; systemic action",
+        "cost_estimate_inr": 850,
+        "effectiveness": "Very High",
+        "waiting_period_days": 14,
+        "brand_examples": ["Aliette"]
+      }
+    ]
+  },
+  {
+    "disease_id": "D007",
+    "disease_name": "Fusarium Wilt",
+    "treatments": [
+      {
+        "type": "Biological",
+        "name": "Trichoderma harzianum",
+        "dosage": "2kg per acre mixed with well-decomposed FYM (200kg)",
+        "application": "Apply to soil at planting; no curative chemical treatment exists",
+        "cost_estimate_inr": 400,
+        "effectiveness": "Medium (preventive only)",
+        "waiting_period_days": 0,
+        "brand_examples": ["Trichoderma plus", "Niprot"]
+      },
+      {
+        "type": "Cultural",
+        "name": "Soil Solarization + Resistant Varieties",
+        "dosage": "Cover soil with transparent polythene for 45 days in summer",
+        "application": "Solarize soil before planting in heavily infested fields. Use resistant rootstocks (tomato: Arka Rakshak; banana: Grand Naine AAA genome)",
+        "cost_estimate_inr": 1500,
+        "effectiveness": "High",
+        "waiting_period_days": 0,
+        "brand_examples": []
+      },
+      {
+        "type": "Chemical",
+        "name": "Carbendazim 50% WP (Soil Drench)",
+        "dosage": "2g per liter of water; 200ml per plant (drench around root zone)",
+        "application": "Soil drench at first symptom of wilting; slows disease but does not cure",
+        "cost_estimate_inr": 250,
+        "effectiveness": "Low-Medium",
+        "waiting_period_days": 21,
+        "brand_examples": ["Bavistin"]
+      }
+    ]
+  },
+  {
+    "disease_id": "D008",
+    "disease_name": "Yellow Mosaic Virus",
+    "treatments": [
+      {
+        "type": "Chemical (Vector Control)",
+        "name": "Imidacloprid 17.8% SL",
+        "dosage": "0.5ml per liter of water",
+        "application": "Spray at 15 and 30 DAS to control whitefly vector",
+        "cost_estimate_inr": 350,
+        "effectiveness": "High (prevents spread, no cure for infected plants)",
+        "waiting_period_days": 7,
+        "brand_examples": ["Confidor", "Admire"]
+      },
+      {
+        "type": "Chemical (Vector Control)",
+        "name": "Thiamethoxam 25% WG",
+        "dosage": "0.2g per liter of water",
+        "application": "Seed treatment (3g/kg seed) + foliar spray at peak whitefly activity",
+        "cost_estimate_inr": 450,
+        "effectiveness": "Very High",
+        "waiting_period_days": 14,
+        "brand_examples": ["Actara", "Cruiser"]
+      },
+      {
+        "type": "Cultural",
+        "name": "Resistant Varieties + Early Sowing",
+        "dosage": "N/A",
+        "application": "Use resistant varieties (Mung: SML 668, Samrat; Soybean: JS 335, JS 9560). Sow early to avoid peak whitefly season. Remove and destroy infected plants immediately",
+        "cost_estimate_inr": 0,
+        "effectiveness": "High",
+        "waiting_period_days": 0,
+        "brand_examples": []
+      }
+    ]
+  },
+  {
+    "disease_id": "D009",
+    "disease_name": "Anthracnose",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Carbendazim 50% WP",
+        "dosage": "1g per liter of water",
+        "application": "Spray at flowering + fruit development stage",
+        "cost_estimate_inr": 250,
+        "effectiveness": "High",
+        "waiting_period_days": 14,
+        "brand_examples": ["Bavistin"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Propineb 70% WP",
+        "dosage": "3g per liter of water",
+        "application": "Alternating spray with Carbendazim every 10 days during fruiting",
+        "cost_estimate_inr": 550,
+        "effectiveness": "High",
+        "waiting_period_days": 7,
+        "brand_examples": ["Antracol"]
+      },
+      {
+        "type": "Post-Harvest",
+        "name": "Hot Water Treatment (for fruits)",
+        "dosage": "52°C water immersion for 10 minutes",
+        "application": "Dip harvested mangoes/papayas before storage to prevent post-harvest anthracnose",
+        "cost_estimate_inr": 50,
+        "effectiveness": "High",
+        "waiting_period_days": 0,
+        "brand_examples": []
+      }
+    ]
+  },
+  {
+    "disease_id": "D010",
+    "disease_name": "Stem Borer",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Cartap Hydrochloride 4G (granules)",
+        "dosage": "8-10 kg per acre broadcast in standing water",
+        "application": "Apply granules in flooded paddy at 30 DAT (when dead hearts appear)",
+        "cost_estimate_inr": 600,
+        "effectiveness": "High",
+        "waiting_period_days": 21,
+        "brand_examples": ["Padan"]
+      },
+      {
+        "type": "Biological",
+        "name": "Trichogramma japonicum (egg parasitoid)",
+        "dosage": "8-10 Tricho-cards per acre (approx. 1.5 lakh parasitized eggs)",
+        "application": "Release at 28 and 35 DAT, coinciding with moth egg-laying period",
+        "cost_estimate_inr": 250,
+        "effectiveness": "Medium-High",
+        "waiting_period_days": 0,
+        "brand_examples": ["Tricho-cards (ICAR)"]
+      },
+      {
+        "type": "Cultural",
+        "name": "Light Trap + Clipping Tips",
+        "dosage": "1-2 light traps per acre",
+        "application": "Install light traps to attract moths. Clip seedling tips before transplanting to destroy eggs",
+        "cost_estimate_inr": 100,
+        "effectiveness": "Medium",
+        "waiting_period_days": 0,
+        "brand_examples": []
+      }
+    ]
+  },
+  {
+    "disease_id": "D011",
+    "disease_name": "Leaf Curl Virus",
+    "treatments": [
+      {
+        "type": "Chemical (Vector Control)",
+        "name": "Spiromesifen 22.9% SC",
+        "dosage": "0.8ml per liter of water",
+        "application": "Spray at 20 and 40 DAT to kill whitefly nymphs",
+        "cost_estimate_inr": 700,
+        "effectiveness": "Very High",
+        "waiting_period_days": 7,
+        "brand_examples": ["Oberon"]
+      },
+      {
+        "type": "Cultural",
+        "name": "Tolerant Varieties + Border Crops",
+        "dosage": "N/A",
+        "application": "Use ToLCV-tolerant varieties (Arka Rakshak, Arka Ananya). Plant maize/sorghum border rows as windbreaks to reduce whitefly entry. Use 40-mesh nylon net nurseries",
+        "cost_estimate_inr": 0,
+        "effectiveness": "High",
+        "waiting_period_days": 0,
+        "brand_examples": []
+      }
+    ]
+  },
+  {
+    "disease_id": "D012",
+    "disease_name": "Wheat Rust",
+    "treatments": [
+      {
+        "type": "Chemical",
+        "name": "Propiconazole 25% EC",
+        "dosage": "1ml per liter of water (500L/ha)",
+        "application": "Spray at first sign of pustules; critical at flag leaf stage",
+        "cost_estimate_inr": 400,
+        "effectiveness": "Very High",
+        "waiting_period_days": 35,
+        "brand_examples": ["Tilt", "Bumper"]
+      },
+      {
+        "type": "Chemical",
+        "name": "Tebuconazole 25.9% EC",
+        "dosage": "1ml per liter of water",
+        "application": "Single spray at heading stage provides 3-4 weeks protection",
+        "cost_estimate_inr": 550,
+        "effectiveness": "Very High",
+        "waiting_period_days": 21,
+        "brand_examples": ["Folicur"]
+      },
+      {
+        "type": "Cultural",
+        "name": "Resistant Varieties",
+        "dosage": "N/A",
+        "application": "Grow multi-rust-resistant varieties: HD 3086, DBW 187, WH 1270. Timely sowing (Nov 1-15) to escape late rust buildup",
+        "cost_estimate_inr": 0,
+        "effectiveness": "Very High",
+        "waiting_period_days": 0,
+        "brand_examples": []
+      }
+    ]
+  }
+]
